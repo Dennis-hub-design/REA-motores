@@ -1,8 +1,28 @@
-
 body {
-  background-color: #f8f9fa;
+  background-color: #f8f9fa; /* cor clara de fundo */
 }
 
-.card {
-  margin-bottom: 20px;
+h1 {
+  font-weight: bold;
+  color: #212529;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #343a40;
+}
+
+.btn-success {
+  font-weight: bold;
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
 }
